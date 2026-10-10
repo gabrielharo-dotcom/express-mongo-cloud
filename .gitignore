@@ -1,0 +1,26 @@
+# Dependencias instaladas
+node_modules/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Registros de ejecucion
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Archivos temporales y del sistema
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+*~
+
+# Resultados de pruebas y cobertura
+coverage/
+.nyc_output/
